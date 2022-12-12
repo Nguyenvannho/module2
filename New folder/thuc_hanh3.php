@@ -39,7 +39,8 @@
                 "2" =>array("ten" => "Marcus Rashford", "ngaysinh" => "1997-10-31", "diachi" => "Vương Quốc Anh", "anh" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMqXBE0EwG3fWYslNak94bL5copRfRcln9uqx4WwNKLBf_5CW8rUyO8ydOheNeAJlGtjc&usqp=CAU"),
                 "3" =>array("ten" => "Rodrigo De Paul", "ngaysinh" => "1994-05-24", "diachi" => "Aghentina", "anh" => "https://i.ex-cdn.com/nongnghiep.vn/files/huynk/2021/07/13/rodrigo-de-paul-080723_508.jpg"),
                 "4" =>array("ten" => "Christian Pulisic", "ngaysinh" => "1998-09-18", "diachi" => "Hoa Kỳ", "anh" => "http://res.cloudinary.com/chelsea-production/image/upload/c_fit,h_630,w_1200/v1/editorial/people/first-team/2022-23/Pulisic_profile_avatar_final_22-23"),
-                "5" =>array("ten" => "Bruno Fernandes", "ngaysinh" => "1994-09-08", "diachi" => "Bồ Đào Nha", "anh" => "https://vcdn1-vnexpress.vnecdn.net/2021/08/23/bruno-fernandes-1264-1629714265.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=1JLfrCVH1CxXKd1D_Avhgw")
+                "5" =>array("ten" => "Bruno Fernandes", "ngaysinh" => "1994-09-08", "diachi" => "Bồ Đào Nha", "anh" => "https://vcdn1-vnexpress.vnecdn.net/2021/08/23/bruno-fernandes-1264-1629714265.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=1JLfrCVH1CxXKd1D_Avhgw ")
+                
           );
           foreach($customerlist as $key => $values){
               echo "<tr>";
