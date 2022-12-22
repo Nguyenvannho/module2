@@ -1,18 +1,17 @@
 <?php
-$text = "xin chao tat cac cac ban";
-$tucantim = "c";
-$count = 0;
-for ($i = 0; $i < strlen($text); $i++) {
-    if ($text[$i] == $tucantim) {
-        $count++;
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $text = "xin chao tat cac cac ban";
+    $count = 0;
+    $tucantim = $_REQUEST["name"];
+    for ($i = 0; $i < strlen($text); $i++) {
+        if ($tucantim == $text[$i]) {
+            $count++;
+        }
     }
 }
 echo $count;
 ?>
-
-
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,13 +20,10 @@ echo $count;
     <title>Document</title>
 </head>
 <body>
-<form action=""method='post'>
-<label for="">Nhập một chuỗi</label><br>
-  <input type="text"  name="nhapmotchuoi" ><br>
-  <label for="">Nhập chữ cần tìm :</label><br>
-  <input type="text"  name="nhapchucantim" ><br>
-  <input type="submit" value="Submit">
-</form>
+    <form action="" method="POST">
+        nhap_chu:<input type="text" name="name" value=""><br>
+        <button type="submit">Kếtquả</button>
+    </form>
 </body>
+
 </html>
-  -->   
